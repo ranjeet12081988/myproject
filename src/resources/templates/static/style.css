@@ -1,0 +1,124 @@
+/* Global styles */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Path to the background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Register Form styles */
+  .form {
+    margin-top: 20px;
+    max-width: 300px;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+  }
+  
+  .form h2 {
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text color for headings */
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border for input fields */
+    border-radius: 3px;
+  }
+  
+  .form button {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+  
+  /* Task List styles */
+  .task-list {
+    margin-top: 20px;
+    background-color: #fff; /* White background for the task list */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the task list */
+  }
+  
+  /* Add Task Form styles */
+  .form#addTaskForm {
+    margin-top: 20px;
+    max-width: 300px;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+  }
+  
+  .form#addTaskForm h2 {
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text color for headings */
+  }
+  
+  .form#addTaskForm input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border for input fields */
+    border-radius: 3px;
+  }
+  
+  .form#addTaskForm button {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .form#addTaskForm button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image {
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 5px;
+  }
+  

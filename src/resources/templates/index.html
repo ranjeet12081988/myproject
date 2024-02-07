@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Custom Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0; /* Reset default margin */
+      padding: 0; /* Reset default padding */
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    /* Add your custom CSS styles here */
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .image {
+      margin: 10px;
+    }
+    .image img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>Welcome to My Web Page</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>Objective: Dedicated DevOps Engineer with five years of experience in the IT industry, skilled in a wide array of technologies and tools, including Maven, Git, GitHub, Jenkins, AWS, Docker, Kubernetes, Shell scripting, and Nexus Repository.</p>
+    </section>
+
+    <section>
+      <h2>Services</h2>
+      <ul>
+        <li>Cloud Engineer</li>
+        <li>AWS</li>
+        <li>Optimization</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form action="/register" method="post">
+        <div class="form-group">
+            <label for="username">Username:          </label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:                </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:   </label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+    </form>
+
+  
+</body>
+</html>
